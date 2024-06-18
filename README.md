@@ -5,7 +5,7 @@
 5. Potential Usefulness
 6. Webscraping
 
-### Communicating with APIs
+# Communicating with APIs
 
 #### What Are APIs?
 
