@@ -3,6 +3,7 @@
 3. Purpose of the Project
 4. Skills Gained
 5. Potential Usefulness
+6. Webscraping
 
 ### README Section: Communicating with APIs
 
@@ -36,3 +37,47 @@ This project serves as a foundational exercise for any software development invo
 - Automating tasks by interacting with various web services.
 - Enhancing existing applications by integrating additional functionalities through third-party APIs.
 - Preparing for more advanced projects involving microservices architecture where APIs play a crucial role in communication between services.
+
+  # Web Scraping
+
+## What is Web Scraping?
+
+Web scraping is the process of extracting data from websites. It involves fetching the content of a web page and parsing it to retrieve specific information. Web scraping can be used for various purposes, such as data analysis, price monitoring, content aggregation, and more.
+
+## Project Details
+
+### URL Scraped
+
+The data was scraped from the following URL:
+- https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29
+
+### Steps Performed
+
+1. **Data Extraction**: Used `pandas` to read HTML tables from the specified URL.
+2. **Data Processing**: Identified the column containing GDP values and converted these values from millions of USD to billions of USD, rounding to two decimal places.
+3. **Data Storage**: Saved the processed data into a CSV file for further use.
+
+## What I Learned
+
+1. **Web Scraping Techniques**: I learned how to use the `pandas` library to scrape data from HTML tables on web pages.
+2. **Data Processing**: I improved my skills in data cleaning and transformation, including handling string values and performing arithmetic operations on them.
+3. **Automation of Data Collection**: This project taught me how to automate the process of data collection and storage for further analysis.
+
+## Utilization of Skills
+
+The skills I acquired through this project can be applied in several ways:
+
+1. **Data Analysis**: Automating the collection of up-to-date data from the web for analysis and decision-making.
+2. **Price Monitoring**: Scraping price data from e-commerce sites to monitor and compare product prices.
+3. **Content Aggregation**: Aggregating data from multiple sources to create comprehensive datasets for research or business intelligence.
+4. **Machine Learning**: Collecting large datasets for training machine learning models.
+
+## Future Improvements
+
+- **Dynamic Scraping**: Incorporate techniques for scraping data from dynamically loaded content using tools like Selenium.
+- **Data Storage**: Explore different data storage options such as databases for more efficient data management.
+
+## Conclusion
+
+This web scraping project provided valuable insights into the process of extracting and processing data from the web. The skills learned will be highly beneficial for various applications in data analysis, business intelligence, and beyond.
+
